@@ -1,0 +1,25 @@
+server:  
+  port: 8888
+  
+spring:  
+  application:
+    name: configserver  
+    
+  profiles:    active: native
+    
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///C:/Users/jmagalmo/Documents/proyectos/bootCamp-microservice/springConfigServer
+          
+#  cloud:
+#    config:
+#      server:          
+#        git:
+#          uri:
+#         search-paths:
+#          username: 
+#         password: 
+#         clone-on-start: true
+          

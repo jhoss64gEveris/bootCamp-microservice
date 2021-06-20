@@ -1,0 +1,20 @@
+server:
+  servlet:
+    contextPath: /credit
+  port: 9093
+  tomcat:
+    max-threads: 5
+
+spring: 
+  application:
+    name: credit
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: account
+
+#eureka:
+# client:
+#   service-url:
+#     defaultZone: http://localhost:8761/eureka

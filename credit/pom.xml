@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.everis</groupId>
-	<artifactId>account</artifactId>
+	<artifactId>credit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>account</name>
-	<description>Microservicio para account - Bootcamp</description>
+	<name>credit</name>
+	<description>Microservicio para credit- Bootcamp</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
