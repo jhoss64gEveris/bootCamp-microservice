@@ -23,4 +23,12 @@ public class AccountBusiness {
 		return repository.findAll();
 	}
 	
+	public Flux<Account> saveAll(Iterable<Account> accounts){
+		return repository.saveAll(accounts);
+	}
+	
+	public Mono<Account> findByNumberAccount(String numberAccount){
+		return repository.findByNumberAccount(numberAccount);
+	}
+	
 }

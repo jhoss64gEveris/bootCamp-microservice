@@ -1,18 +1,18 @@
 server:
   servlet:
-    contextPath: /credit
+    contextPath: /transaction
   port: 9093
   tomcat:
     max-threads: 5
 
 spring: 
   application:
-    name: credit
+    name: transaction
   data:
     mongodb:
       host: localhost
       port: 27017
-      database: credits
+      database: transactions
 
 #eureka:
 # client:
