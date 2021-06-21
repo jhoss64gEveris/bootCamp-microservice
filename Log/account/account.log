@@ -628,3 +628,273 @@ ERROR in ch.qos.logback.core.ConsoleAppender[console] - No encoder set for the a
 17:32:53.095 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 17:32:53.097 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 17:32:53.526 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.9 seconds (JVM running for 7.985)
+17:38:02.374 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:38:15.586 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 13284 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:38:15.588 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:38:15.619 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:38:15.620 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:38:16.277 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:38:16.420 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 1 Reactive MongoDB repository interfaces.
+17:38:16.580 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:38:16.913 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:38:16.922 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:38:16.923 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:38:16.923 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:38:17.016 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:38:17.017 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+17:38:17.348 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:38:18.521 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:199}] to localhost:27017
+17:38:18.521 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:198}] to localhost:27017
+17:38:18.522 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48666000}
+17:38:19.542 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:38:19.594 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:38:19.606 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:38:20.136 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:38:20.137 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:38:20.138 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:38:20.973 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.771 seconds (JVM running for 7.823)
+17:39:00.441 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:39:10.667 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 26236 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:39:10.669 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:39:10.701 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:39:10.701 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:39:11.364 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:39:11.501 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132 ms. Found 1 Reactive MongoDB repository interfaces.
+17:39:11.676 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:39:11.989 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:39:11.998 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:39:11.998 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:39:11.999 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:39:12.093 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:39:12.093 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1391 ms
+17:39:12.426 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:39:13.564 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:201}] to localhost:27017
+17:39:13.564 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:200}] to localhost:27017
+17:39:13.565 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47316200}
+17:39:14.580 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:39:14.631 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:39:14.644 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:39:15.418 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:39:15.419 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:39:15.420 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:39:16.003 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.747 seconds (JVM running for 7.803)
+17:40:08.319 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:40:19.177 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 19388 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:40:19.179 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:40:19.214 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:40:19.214 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:40:19.886 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:40:20.022 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132 ms. Found 1 Reactive MongoDB repository interfaces.
+17:40:20.208 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:40:20.521 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:40:20.531 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:40:20.531 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:40:20.531 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:40:20.624 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:40:20.625 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+17:40:20.968 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:40:22.109 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:202}] to localhost:27017
+17:40:22.109 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:203}] to localhost:27017
+17:40:22.109 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48967400}
+17:40:22.795 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:40:22.795 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:40:23.124 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:40:23.134 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 339 ms
+17:40:23.209 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:40:23.236 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:40:24.562 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.746 seconds (JVM running for 7.908)
+17:48:02.879 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:48:14.000 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 20384 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:48:14.003 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:48:14.039 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:48:14.040 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:48:14.682 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:48:14.818 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 1 Reactive MongoDB repository interfaces.
+17:48:14.988 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:48:15.302 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:48:15.312 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:48:15.313 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:48:15.313 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:48:15.404 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:48:15.405 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1363 ms
+17:48:15.747 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:48:16.886 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:204}] to localhost:27017
+17:48:16.886 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:205}] to localhost:27017
+17:48:16.886 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48204600}
+17:48:17.909 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:48:17.961 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:48:17.974 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:48:18.569 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:48:18.569 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:48:18.570 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:48:19.350 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.723 seconds (JVM running for 7.773)
+17:48:51.358 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:49:01.783 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 20856 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:49:01.785 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:49:01.819 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:49:01.819 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:49:02.467 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:49:02.608 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 1 Reactive MongoDB repository interfaces.
+17:49:02.790 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:49:03.103 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:49:03.113 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:49:03.113 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:49:03.113 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:49:03.206 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:49:03.206 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1386 ms
+17:49:03.539 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:49:04.702 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:207}] to localhost:27017
+17:49:04.702 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:206}] to localhost:27017
+17:49:04.703 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47211700}
+17:49:05.794 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:49:05.795 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:49:05.821 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:49:05.831 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+17:49:05.924 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:49:05.940 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:49:07.280 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.914 seconds (JVM running for 7.981)
+17:49:43.877 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:49:55.103 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 20960 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:49:55.106 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:49:55.141 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:49:55.142 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:49:55.785 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:49:55.940 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 1 Reactive MongoDB repository interfaces.
+17:49:56.096 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:49:56.439 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:49:56.448 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:49:56.448 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:49:56.449 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:49:56.543 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:49:56.544 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1401 ms
+17:49:56.876 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:49:57.977 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:209}] to localhost:27017
+17:49:57.977 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:208}] to localhost:27017
+17:49:57.977 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54258000}
+17:49:59.008 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:49:59.058 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:49:59.070 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:49:59.632 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:49:59.632 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:49:59.633 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:50:00.429 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.737 seconds (JVM running for 7.808)
+17:51:03.146 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:51:13.328 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 22248 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:51:13.330 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:51:13.364 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:51:13.364 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:51:14.035 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:51:14.174 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 1 Reactive MongoDB repository interfaces.
+17:51:14.348 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:51:14.670 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:51:14.680 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:51:14.681 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:51:14.681 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:51:14.774 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:51:14.774 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+17:51:15.104 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:51:16.336 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:211}] to localhost:27017
+17:51:16.336 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:210}] to localhost:27017
+17:51:16.336 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=50936000}
+17:51:17.073 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:51:17.073 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:51:17.382 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:51:17.389 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 316 ms
+17:51:17.456 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:51:17.469 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:51:18.829 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.876 seconds (JVM running for 7.926)
+17:52:43.567 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:52:55.437 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 13316 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:52:55.441 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:52:55.492 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:52:55.492 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:52:56.316 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:52:56.493 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 1 Reactive MongoDB repository interfaces.
+17:52:56.694 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:52:57.097 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:52:57.108 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:52:57.109 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:52:57.109 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:52:57.214 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:52:57.215 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1721 ms
+17:52:57.663 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:52:58.822 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:212}] to localhost:27017
+17:52:58.822 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:213}] to localhost:27017
+17:52:58.823 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62791200}
+17:53:00.019 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:53:00.084 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:53:00.100 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:53:00.664 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:53:00.664 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:53:00.666 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+17:53:01.469 INFO  c.everis.account.AccountApplication - Started AccountApplication in 7.751 seconds (JVM running for 9.412)
+17:54:30.542 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:54:41.666 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 18836 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:54:41.668 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:54:41.702 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:54:41.702 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:54:42.356 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:54:42.496 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 1 Reactive MongoDB repository interfaces.
+17:54:42.667 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:54:42.982 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:54:42.992 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:54:42.993 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:54:42.993 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:54:43.086 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:54:43.086 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+17:54:43.431 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:54:44.526 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:215}] to localhost:27017
+17:54:44.526 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:214}] to localhost:27017
+17:54:44.527 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47476400}
+17:54:45.547 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:54:45.598 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:54:45.611 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:54:46.292 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:54:46.292 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:54:46.294 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:54:46.978 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.702 seconds (JVM running for 7.775)
+17:57:26.768 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+#logback.classic pattern: %d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+17:57:40.156 INFO  c.everis.account.AccountApplication - Starting AccountApplication using Java 1.8.0_291 on LIM-5RNY0Z2 with PID 19796 (C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account\target\classes started by jmagalmo in C:\Users\jmagalmo\Documents\proyectos\bootCamp-microservice\account)
+17:57:40.158 INFO  c.everis.account.AccountApplication - No active profile set, falling back to default profiles: default
+17:57:40.192 INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+17:57:40.192 INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=account, profiles=[default], label=null, version=null, state=null
+17:57:40.838 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+17:57:40.978 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 1 Reactive MongoDB repository interfaces.
+17:57:41.169 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f8bf5aba-edd8-39b1-91e6-f8f0a7e9524f
+17:57:41.483 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9092 (http)
+17:57:41.493 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9092"]
+17:57:41.494 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:57:41.494 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:57:41.587 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring embedded WebApplicationContext
+17:57:41.587 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1393 ms
+17:57:41.918 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+17:57:43.084 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:216}] to localhost:27017
+17:57:43.084 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:217}] to localhost:27017
+17:57:43.084 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55655700}
+17:57:44.171 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+17:57:44.215 INFO  o.a.c.c.C.[.[localhost].[/account] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:57:44.216 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:57:44.219 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+17:57:44.229 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9092"]
+17:57:44.244 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9092 (http) with context path '/account'
+17:57:45.638 INFO  c.everis.account.AccountApplication - Started AccountApplication in 6.858 seconds (JVM running for 7.952)

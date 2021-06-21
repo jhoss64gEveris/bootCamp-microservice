@@ -1,7 +1,7 @@
 <configuration>
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} %-5level ms-Account:  %logger{36} \n 		: [%15.15thread] %msg%n</pattern>
+            <pattern> %d{HH:mm:ss.SSS} - %5p  [%25.25thread] : %-45.45logger{45} : [%12(ID: %8mdc{id})]  %msg%n</pattern>
         </encoder>
     </appender>
 
