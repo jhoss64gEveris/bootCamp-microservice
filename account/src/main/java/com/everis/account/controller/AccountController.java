@@ -4,9 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -24,13 +26,7 @@ import reactor.core.publisher.Mono;
 public class AccountController {
 
 	@Autowired
-	AccountBusiness business;
-	
-    @GetMapping(path= "/findAll", produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseStatus(value = HttpStatus.OK)
-    public Flux<Account> findAll() {		
-    	return business.findAll();
-    }
+	AccountBusiness business;    
 	
     @GetMapping(path= "/findByNumberAccount/{numberAccount}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(value = HttpStatus.OK)
@@ -38,17 +34,31 @@ public class AccountController {
     	return business.findByNumberAccount(numberAccount);
     }
     
-	@PostMapping(value = "/save")
+	@PostMapping(value = "/create")
 	@ResponseStatus(value = HttpStatus.CREATED)
-    public Mono<Account> saveOrUpdateAccount(@RequestBody Account account) {
-		return business.save(account);
+    public Mono<Account> createAccount(@RequestBody Account account) {
+		return business.createAccount(account);
     }
 	
-	@PostMapping(value = "/saveAll")
+	@GetMapping(path= "/findAll", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseStatus(value = HttpStatus.OK)
+    public Flux<Account> findAll() {		
+    	return business.findAll();
+    }
+	
+	@PostMapping(value = "/cretaeAll")
 	@ResponseStatus(value = HttpStatus.CREATED)
-    public Flux<Account> saveAccountAll(@RequestBody Iterable<Account> accounts) {
+    public Flux<Account> createdAccountAll(@RequestBody Iterable<Account> accounts) {
 		return business.saveAll(accounts);
     }
 	
-	//@GetMapping(path= "/findAll", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+	@PutMapping(value = "/updateAccount/{numberAccount}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public Mono<Account> updateAccount(@PathVariable("numberAccount") final String numberAccount, @RequestBody Account account){
+		return business.updateAccount(numberAccount, account);
+	}
+	
+	@DeleteMapping(value = "/deleteAccount/{numberAccount}")
+	public Mono<Void> deleteAccount(@PathVariable("numberAccount") final String numberAccount) {
+		return business.deleteByAccount(numberAccount);
+	}
 }

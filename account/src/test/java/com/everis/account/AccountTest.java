@@ -22,7 +22,7 @@ class AccountTest{
 	@Test
 	public void testSaveAccount() {
 		
-	    repository.save(new Account("1","CND-263232323","Aura","Moreyra",Date.valueOf("01-01-2020"))).block();
+	    repository.save(new Account("1","CND-263232323","Aura Moreyra",Date.valueOf("01-01-2020"))).block();
 	    Flux<Account> accountFlux = repository.findAll();
 
 	    StepVerifier

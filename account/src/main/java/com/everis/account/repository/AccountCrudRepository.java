@@ -13,5 +13,7 @@ public interface AccountCrudRepository extends ReactiveMongoRepository<Account, 
 		ReactiveCrudRepository<Account, String> {
 	
 	public Mono<Account> findByNumberAccount(String numberAccount);
+
+	public Mono<Void> deleteByNumberAccount(String numberAccount);
 	
 }

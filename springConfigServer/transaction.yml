@@ -1,7 +1,7 @@
 server:
   servlet:
     contextPath: /transaction
-  port: 9093
+  port: 9094
   tomcat:
     max-threads: 5
 
