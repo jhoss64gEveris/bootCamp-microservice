@@ -16,10 +16,10 @@ spring:
 #  cloud:
 #    config:
 #      server:          
-#        git:
-#          uri:
+#       git:
+#          uri: https://github.com/jhoss64gEveris/files-config-server.git
 #         search-paths:
-#          username: 
-#         password: 
-#         clone-on-start: true
+#          username: jhoss64gEveris
+#          password: systeM64@
+#          clone-on-start: true
           

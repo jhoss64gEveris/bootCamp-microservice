@@ -1,7 +1,5 @@
 package com.grupo07.banca.proyecto01.staff;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import reactor.core.publisher.Flux;
 
 //@SpringBootTest
@@ -14,5 +12,4 @@ class DemoApplicationTests {
 		fluxColors.subscribe(System.out::println);
 		fluxColors.log().subscribe(System.out::println);
 	}
-
 }

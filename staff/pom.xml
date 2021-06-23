@@ -8,7 +8,7 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.grupo07.banca.cliente</groupId>
+	<groupId>com.grupo07.banca.proyecto01.staff</groupId>
 	<artifactId>staff</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>staff</name>

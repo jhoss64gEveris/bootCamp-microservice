@@ -17,8 +17,8 @@ public class Staff {
     private String   id;
     private String  dni;
     private String  name;
-    private String  sexo;
-    private Integer edad;
-    //dire ingles.
+    private String  sex;
+    private Integer age;
+
 
 }

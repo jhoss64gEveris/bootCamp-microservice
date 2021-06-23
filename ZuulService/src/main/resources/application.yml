@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: zuul
+ 
+#Tomcat Embedded Server Configuration
+server:
+  port: 7000
+ 
+#Zuul Configuration Properties
+zuul:
+  routes:
+      account:
+        path: /account/**
+        serviceId: ACCOUNT
+        stripPrefix: false
+        
+      credit:
+        path: /credit/**
+        serviceId: CREDIT
+        stripPrefix: false
+        
+      transaction:
+        path: /transaction/**
+        serviceId: TRANSACTION
+        stripPrefix: false
+        
+#Eureka Configuration Properties
+eureka: 
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

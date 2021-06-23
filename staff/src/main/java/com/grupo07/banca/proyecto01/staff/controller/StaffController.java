@@ -27,10 +27,10 @@ public class StaffController {
         return StaffRepository.save(Staff);
     }
 
-    @GetMapping(value = "/getStaffsMayores18/{sexo}/{edad}")
+    @GetMapping(value = "/getStaffSutmostes/{sex}/{age}")
     public @ResponseBody
-    Flux<Staff> getStaffsMayores18(@PathVariable String sexo, @PathVariable Integer edad) {
-        return StaffRepository.findUsingQuery(sexo,edad);
+    Flux<Staff> getStaffSutmostes(@PathVariable String sex, @PathVariable Integer age) {
+        return StaffRepository.findUsingQuery(sex,age);
     }
 
     @PutMapping(value = "/putStaffs")
