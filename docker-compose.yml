@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   eureka-server:
-    image: eureka #nombre de la imagen que hemos creado
+    image: eureka 
     restart: always
     container_name: eureka
     hostname: eureka-server
@@ -10,7 +10,7 @@ services:
     networks:
       - 'banking-network'
   config-server:
-    image: config #nombre de la imagen que hemos creado
+    image: config 
     restart: always
     container_name: config
     hostname: config-server
@@ -19,7 +19,7 @@ services:
     networks:
       - 'banking-network'
   zuul-service:
-    image: zuul #nombre de la imagen que hemos creado
+    image: zuul 
     restart: always
     container_name: zuul
     ports:
@@ -27,19 +27,19 @@ services:
     networks:
       - 'banking-network'
   account:
-    image: account #nombre de la imagen que hemos creado
+    image: account 
     restart: always
     container_name: account-microservice
     networks:
       - 'banking-network'
-  db-account:
+  db-account: #replicar configuracion para otras bd de la misma imagen
     image: mongo
     restart: always
-    container_name: mongodb_account
+    container_name: mongodb_account #cambia el prefijo por el nombre del microservicio
     hostname: mongodb-server
     networks:
       - 'banking-network'
     ports:
-      - '1255:27017'
+      - '1255:27017' #los puertos van a ir en secuencia desde la 1255 en adelante
 networks:
   banking-network: 

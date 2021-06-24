@@ -1,4 +1,3 @@
-FROM tomcat:8.0.51-jre8-alpine
-RUN rm -rf /usr/local/tomcat/webapps/*
-COPY ./target/account-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/account.war
-CMD ["catalina.sh","run"]
+FROM openjdk:8-jdk-alpine
+ADD target/account-0.0.1-SNAPSHOT.jar account.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/account.jar"]
