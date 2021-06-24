@@ -11,7 +11,7 @@
 	<groupId>com.everis</groupId>
 	<artifactId>ZuulService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ZuulService</name>
 	<description>Zuul ApiGateway para docker application</description>
 	<properties>

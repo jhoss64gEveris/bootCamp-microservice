@@ -1,25 +1,30 @@
 server:  
   port: 8888
   
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
+        
 spring:  
   application:
-    name: configserver  
+    name: config-server  
     
-  profiles:    active: native
+  profiles:    active: git
     
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: file:///C:/Users/jmagalmo/Documents/proyectos/bootCamp-microservice/springConfigServer
-          
+
 #  cloud:
 #    config:
-#      server:          
-#       git:
-#          uri: https://github.com/jhoss64gEveris/files-config-server.git
-#         search-paths:
-#          username: jhoss64gEveris
-#          password: systeM64@
-#          clone-on-start: true
+#      server:
+#       native:
+#          search-locations: file:///C:/Users/jmagalmo/Documents/proyectos/bootCamp-microservice/springConfigServer
+          
+  cloud:
+    config:
+      server:          
+       git: 
+          uri: https://github.com/jhoss64gEveris/files-config-server
+          username: jhoss64gEveris
+          password: systeM64@
+       default-label: main
           

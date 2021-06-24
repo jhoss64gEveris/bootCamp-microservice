@@ -23,10 +23,13 @@ zuul:
         path: /transaction/**
         serviceId: TRANSACTION
         stripPrefix: false
+  host:    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
         
 #Eureka Configuration Properties
 eureka: 
   client:
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
+

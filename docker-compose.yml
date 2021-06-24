@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  eureka-server:
+    image: eureka #nombre de la imagen que hemos creado
+    restart: always
+    container_name: eureka
+    hostname: eureka-server
+    ports:
+      - '8761:8761'
+    networks:
+      - 'banking-network'
+  config-server:
+    image: config #nombre de la imagen que hemos creado
+    restart: always
+    container_name: config
+    hostname: config-server
+    ports:
+      - '8888:8888'
+    networks:
+      - 'banking-network'
+  zuul-service:
+    image: zuul #nombre de la imagen que hemos creado
+    restart: always
+    container_name: zuul
+    ports:
+      - '7000:7000'
+    networks:
+      - 'banking-network'
+  account:
+    image: account #nombre de la imagen que hemos creado
+    restart: always
+    container_name: account-microservice
+    networks:
+      - 'banking-network'
+  db-account:
+    image: mongo
+    restart: always
+    container_name: mongodb_account
+    hostname: mongodb-server
+    networks:
+      - 'banking-network'
+    ports:
+      - '1255:27017'
+networks:
+  banking-network: 
