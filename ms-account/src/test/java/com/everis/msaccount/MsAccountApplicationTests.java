@@ -1,10 +1,10 @@
-package com.everis.eurekaServer;
+package com.everis.msaccount;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaServerApplicationTests {
+class MsAccountApplicationTests {
 
 	@Test
 	void contextLoads() {
