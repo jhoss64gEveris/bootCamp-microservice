@@ -19,11 +19,11 @@ services:
     networks:
       - 'banking-network'
   zuul-service:
-    image: zuul 
+    image: gateway 
     restart: always
-    container_name: zuul
+    container_name: gateway
     ports:
-      - '7000:7000'
+      - '7001:7001'
     networks:
       - 'banking-network'
   account:
